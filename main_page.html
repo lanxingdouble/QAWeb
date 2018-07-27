@@ -7,11 +7,11 @@
 <body>
 <br/><br/><br/><br/>
  <div class="main-title">
-        <div class="text-center">QA</div>
+        <div class="text-center">Sematic Search</div>
         <div class="input-jump center-block">
             <div class="col-lg">
                 <div class="input-group">
-                    <input type="text" class="form-control" placeholder="enter question...">
+                    <input type="text" class="form-control" onkeydown="keyup_submit(event)" placeholder="enter question...">
                     <span class="input-group-btn">
                         <button class="btn btn-primary" type="button"  id="bt1" onclick="jumpClick()">SEARCH</button>
                     </span>
@@ -19,11 +19,7 @@
             </div><!-- /.col-lg-6 -->
         </div>
     </div>
-    <table  id="answer"  class="table table-striped" >
-            <tr>
-                <td>id</td>
-                <td>sentence</td>
-            </tr>
+    <table  id="answer"  class="table table-striped"  border="2">
         </table>
 </body>
 
