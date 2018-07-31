@@ -36,7 +36,7 @@ function jumpClick(){
         alert("empty input");
     }   
 }
-
+//检测是否输入enter
 function keyup_submit(e){ 
   var evt = window.event || e; 
     if (evt.keyCode == 13){
